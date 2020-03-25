@@ -1,0 +1,74 @@
+
+<html>
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<b><font face="DFKai-sb" color="Blue" size="5" style="background-color: #FAED6A">
+	<title>
+		
+	資管營報名表
+	</title>
+	</b><br/></font>
+</head>
+
+<body style="background-color: #FFEE33">
+	<form action="http://localhost/submit.php" method="POST">
+	<b><font face="DFKai-sb" color="Blue" size="7" style="background-color: #FAED6A">
+	資管營報名表</b><br/></font>
+
+	<br/>
+	<font size="5" style="line-height: 150%">
+	<div id="menu" style="height:80%;width:50%;float:right;">
+	<br/>
+	請輸入姓名:<input type="text" name="name"><br/>
+	請輸入生日:<input type="date" name="birthday"><br/>
+	請輸入年齡:<input type="text" name="years"><br/>
+	請輸入身份證字號:<input type="text" name="id"><br/>
+	請選擇性別:
+	<input type="radio" name="gender" value="M">男
+	<input type="radio" name="gender" value="F">女<br/>
+	
+
+	飲食習慣:
+	<input type="radio" name="eat" value="葷食">葷食
+	<input type="radio" name="eat" value="素食">素食<br/>
+
+
+	上傳大頭照:
+	<input type="file" name="photo"><br/>
+
+	獲得營隊資訊(可複選):
+	<select name="information[]" multiple>
+		<option value="FB">FB</option>
+		<option value="IG">IG</option>
+		<option value="學校師長">學校師長</option>
+		<option value="親朋好友">親朋好友</option>
+		<option value="其他">其他</option>
+
+	</select><br/>
+
+	有興趣的活動(可複選):<br/>
+	<input type="checkbox" name="inte[]" value="課程">課程
+	<input type="checkbox" name="inte[]" value="大地">大地
+	<input type="checkbox" name="inte[]" value="水大地">水大地
+	<input type="checkbox" name="inte[]" value="舞會">舞會
+	<br/>
+	
+	</font>
+	<textarea rows="5" cols="70" name="comment" id="">
+備註
+		
+	</textarea><br/>
+
+	<input type="submit" value="提交">
+	<input type="reset" value="重設"><br/>
+	</div>
+	<br/>
+	<div id="content" style="background-color:#EEEEEE;height:700px;width:45%;float:left;">	<p class="a">
+	<a href="https://zh-tw.facebook.com/nukimcamp">
+		<img src="https://scontent.ftpe1-3.fna.fbcdn.net/v/t1.0-9/p960x960/87003499_2697192063721825_8704348608050233344_o.jpg?_nc_cat=105&_nc_sid=85a577&_nc_ohc=McGK3Z_tIlkAX_F8ik6&_nc_ht=scontent.ftpe1-3.fna&_nc_tp=6&oh=3b70ed84070f025e8279f8dd163e1090&oe=5E98BEE8" width="600px" border="3"></a><br/>
+		(圖有臉書粉專連結)
+	<br/>
+	</div>
+	</form>
+</body>
+</html>
